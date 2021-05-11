@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ChurrascoMetro</title>
+</head>
+<body>
+    <div class="geral">
+        <div class="container">
+            <h1>CHURRASCÔ<span>METRO</span></h1>
+            <p>Selecione o número de pessoas (adultos e crianças) e a calculadora indicará a quantidade de carne ideal para o seu churrasco sair perfeito, e sem desperdícios.</p>
+            <h2>CONVIDADOS</h2>
+            <div class="convidados">
+                <div class="maiores">
+                    <label for="adultos">Adultos</label>
+
+                   <input type="number" name="adultos" id="adultos" placeholder="0"  min="0" max="100">
+
+                </div>
+                <div class="criancas">
+
+                    <label for="criancas">Crianças</label>
+
+                    <input type="number" name="criancas" id="criancas" placeholder="0"  min="0" max="100">
+
+                </div>
+                <div class="tempo">
+
+                    <label for="duracao">Duraçao</label>
+
+                    <input type="number" name="duracao" id="duracao" placeholder="H" min="0" max="100">
+                </div>
+
+                <button onclick="calcular()">Calcular</button>
+
+            </div>
+
+            <div id="resultado">
+                
+              </div>
+        </div>
+        </div>
+    <script src="script/javascript.js"></script>
+</body>
+</html>

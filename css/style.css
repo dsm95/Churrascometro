@@ -1,0 +1,113 @@
+
+* {
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {text-decoration: none;}
+body {
+    background-image: url(../image/churrasco.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.container {
+    background-color: #f2ae72e1;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 700px;
+    margin-right: 10%;
+    flex-wrap: wrap;
+    padding: 40px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.container h1 {
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 1px;
+    margin: 40px auto;
+    margin-bottom: 0;
+}
+
+.container p {
+    margin: 30px auto;
+    margin-top: 5px;
+    text-align: justify;
+}
+
+.container h2 {
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+    margin: 30px auto
+} 
+.convidados {
+    max-width: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.convidados input {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 1.5em;
+    border-radius: 10px;
+    border: 1px solid;
+}
+.homens p, .mulheres p, .criancas p {
+    text-transform: uppercase;
+    margin: 20px auto;
+    text-align: center;
+}
+
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    margin-bottom: 0;
+}
+
+button {
+    padding: 10px 60px;
+    background: #4A7564;
+    width: 400px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+button:hover {
+    background: #2C6B5A;
+}
+#resultado{
+  width: 300px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+
+}
+#resultado h2{
+  text-align:center;
+  font-weight:lighter;  
+  margin: 20px auto;
+  
+}
+#resultado p{
+  text-align:center;
+  font-weight:bold;  
+}
